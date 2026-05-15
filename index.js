@@ -324,6 +324,6 @@ document.querySelectorAll(".sidepanel a").forEach((link) => {
 document.addEventListener("click", (e) => {
     if (!sidepanel.contains(e.target) && !menuBtn.contains(e.target)) {
         sidepanel.classList.remove("open");
-        overlay.classList.toggle("active");
+        overlay.classList.remove("active");
     }
 });
