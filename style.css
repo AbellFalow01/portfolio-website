@@ -389,7 +389,7 @@ main {
     width: 100%;
     height: auto;
     justify-content: center;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(1, 300px);
     grid-template-rows: repeat(2, 350px);
     grid-gap: 20px;
 }
