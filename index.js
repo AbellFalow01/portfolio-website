@@ -284,11 +284,18 @@ li.forEach((li) => {
             } else if (section === "#projects") { 
                 main.innerHTML = `
                 <div class="project-section">
-                    <div class="warning-card">
-                        <img src="public/warning.svg" alt="">
-                        <div class="warning-text">
-                            <h4>Under Konstruktion!</h4>
-                            <p>Projektsidan byggs just nu. Kom tillbaka snart!</p>
+                    <h2>PROJEKT</h2>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <div class="image-wrapper">
+                                <a href="https://abellfalow01.github.io/weather-view/" target="_blank">
+                                <img id="weatherview" src="weatherview.png" alt="">
+                                </a>
+                            </div>
+                            <div class="project-info">
+                                <h3>Weather View</h3>
+                                <p>En modern väderapp där användare kan söka efter olika städer och få aktuell väderinformation i realtid genom en enkel och responsiv design.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
