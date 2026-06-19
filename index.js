@@ -297,6 +297,17 @@ li.forEach((li) => {
                                 <p>En modern väderapp där användare kan söka efter olika städer och få aktuell väderinformation i realtid genom en enkel och responsiv design.</p>
                             </div>
                         </div>
+                        <div class="project-card">
+                            <div class="image-wrapper">
+                                <a href="https://abellfalow01.github.io/todo-app/" target="_blank">
+                                <img id="todoapp" src="todoapp.png" alt="">
+                                </a>
+                            </div>
+                            <div class="project-info">
+                                <h3>Todo App</h3>
+                                <p>En modern todo-app där användare kan skapa, organisera och markera uppgifter som klara genom ett enkelt och responsivt gränssnitt för bättre planering i vardagen.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 `;
